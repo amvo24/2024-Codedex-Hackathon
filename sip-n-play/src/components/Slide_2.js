@@ -21,7 +21,7 @@ const Slide_2 = () => (
                     If you want to guarantee a table, you can make a reservation which is $15 a person for 3 hours of gameplay.
                 </p>
                 <p className='slide-paragraph'>
-                    For large parties (9+ or more people), please email us at sipnplaynyc@gmail.com to inquire abo ut a reservation.
+                    For large parties (9+ or more people), please email by clicking <a href='mailto:sipnplaynyc@gmail.com'>HERE</a> to inquire about a reservation.
                 </p>
             </div>
         </div>

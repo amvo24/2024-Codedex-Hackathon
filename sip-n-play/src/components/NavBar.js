@@ -22,7 +22,7 @@ const NavBar = () => {
               <NavLink to="/menu" activeClassName="active-link" className="nav-link">Menu</NavLink>
             </li>
             <li>
-              <NavLink to="/contact" activeClassName="active-link" className="nav-link">Contact</NavLink>
+              <NavLink to="/games" activeClassName="active-link" className="nav-link">Games</NavLink>
             </li>
             {/* Add more navigation links as needed */}
           </ul>

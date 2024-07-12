@@ -2,13 +2,12 @@
 import React from 'react';
 import DrinkListBox from './DrinkListBox';
 import * as THREE from 'three';
-import { Canvas } from '@react-three/fiber';
+// import { Canvas } from '@react-three/fiber';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import coffee from '../assets/images/coffee.png'
 import boba from '../assets/images/boba.png'
 import matcha from '../assets/images/matcha.png'
 import '../CSS/Menu.css'
-
 
 const Menu = () => {
     return (
