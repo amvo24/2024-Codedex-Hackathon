@@ -4,6 +4,10 @@ import DrinkListBox from './DrinkListBox';
 import * as THREE from 'three';
 import { Canvas } from '@react-three/fiber';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import coffee from '../assets/images/coffee.png'
+import boba from '../assets/images/boba.png'
+import matcha from '../assets/images/matcha.png'
+import '../CSS/Menu.css'
 
 
 const Menu = () => {
@@ -11,27 +15,27 @@ const Menu = () => {
         <div className='menu-page'>
             {/* First Row */}
             <div className='row'>
-                <div className='image-box'>
+                <div className='image-box20'>
                     {/* Replace with your image component */}
-                    <img src='/path/to/your/image1.jpg' alt='Image 1' />
+                    <img src={coffee} className='image20' />
                 </div>
                 <DrinkListBox />
             </div>
 
             {/* Second Row (reversed) */}
             <div className='row reversed'>
-                <DrinkListBox />
                 <div className='image-box'>
                     {/* Replace with your image component */}
-                    <img src='/path/to/your/image2.jpg' alt='Image 2' />
+                    <img src={boba} alt='Image 2' className='image20'/>
                 </div>
+                <DrinkListBox />
             </div>
 
             {/* Third Row */}
             <div className='row'>
                 <div className='image-box'>
                     {/* Replace with your image component */}
-                    <img src='/path/to/your/image3.jpg' alt='Image 3' />
+                    <img src={matcha} alt='Image 3' className='image20'/>
                 </div>
                 <DrinkListBox />
             </div>

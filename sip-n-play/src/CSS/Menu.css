@@ -7,6 +7,7 @@
 
 .row {
     display: flex;
+    justify-content: space-evenly;
     gap: 20px; /* Space between image-box and DrinkListBox */
 }
 
@@ -14,8 +15,14 @@
     flex-direction: row-reverse; /* Reverse the order of items in the row */
 }
 
-.image-box {
-    width: 200px; /* Adjust width as needed */
+.image-box20 {
+    max-height: 650px;
+    max-width: 650px;
+}
+
+.image20 {
+    max-height: 650px;
+    max-width: 650px;
 }
 
 /* Additional styling as per your design requirements */

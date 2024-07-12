@@ -21,21 +21,18 @@ const DrinkListBox = ({ }) => {
 
     return (
       <div className="drink-list-box">
-        {/* <h1>DRINK LIST BOX</h1> */}
         <div className="drink-list">
           <div className="beverages">
-            {/* <h2>Beverages</h2> */}
-            <ul>
+            <ul className='menu-ul'>
               {beverages.map((item, index) => (
-                <li key={index}>{item.name}</li>
+                <li key={index} className='Menu-font'>{item.name}</li>
               ))}
             </ul>
           </div>
           <div className="prices">
-            {/* <h2>Prices</h2> */}
             <ul>
               {beverages.map((item, index) => (
-                <li key={index}>{item.price}</li>
+                <li key={index} className='menu-prices'>${item.price}</li>
               ))}
             </ul>
           </div>
