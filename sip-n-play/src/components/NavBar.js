@@ -2,19 +2,26 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SnP_Logo from '../assets/images/SnP_Logo.png'
 
 const NavBar = () => {
   return (
     <nav>
+      <div className='logo'>
+        <img src={SnP_Logo} alt='logo'></img>
+      </div>
       <ul>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/Menu">Menu</Link>
+          <Link to="/events">Events</Link>
         </li>
         <li>
-          <Link to="/Contact">Contact</Link>
+          <Link to="/menu">Menu</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
         </li>
         {/* Add more navigation links as needed */}
       </ul>
