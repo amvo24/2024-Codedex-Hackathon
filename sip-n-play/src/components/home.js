@@ -1,3 +1,5 @@
+// ./components/home
+
 import React from 'react';
 import OurStory from './OurStory';
 

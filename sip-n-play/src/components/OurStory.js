@@ -1,12 +1,11 @@
 // ./components/OurStory
 import React from 'react';
+import '../CSS/OurStory.css'
 
 const OurStory = () => {
     return(
         <div>
-            <h1>
-                IMAGE TEST
-            </h1>
+            <img></img>
         </div>
     );
 };
