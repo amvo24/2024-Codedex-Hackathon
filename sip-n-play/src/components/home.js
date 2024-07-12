@@ -1,11 +1,15 @@
-// ./components/home.js
-// this is the landing page.
 import React from 'react';
+import OurStory from './OurStory';
 
-const homePage = () => {
-    return(
-        <h1> Home Page Test !!!</h1>
+const HomePage = () => {
+    return (
+        <div>
+            <header>
+                <h1>Test</h1>
+            </header>
+            <OurStory />
+        </div>
     );
 };
 
-export default homePage;
+export default HomePage;

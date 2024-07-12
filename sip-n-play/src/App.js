@@ -1,8 +1,7 @@
 // src/App.js
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import HomePage from './components/casa';
-import NavBar from './components/NavBar';
+import HomePage from './components/home';
 
 function App() {
   return (
