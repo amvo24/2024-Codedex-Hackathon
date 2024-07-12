@@ -1,7 +1,8 @@
 // ./components/home
 
 import React from 'react';
-import OurStory from './OurStory';
+import Slide_1 from './Slide_1';
+import Slide_2 from './Slide_2';
 
 const HomePage = () => {
     return (
@@ -9,7 +10,8 @@ const HomePage = () => {
             <header>
                 <h1>Test</h1>
             </header>
-            <OurStory />
+            {/* <Slide_1 /> */}
+            <Slide_2 />
         </div>
     );
 };
