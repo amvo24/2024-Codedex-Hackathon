@@ -3,6 +3,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './components/home';
 import NavBar from './components/NavBar';
+import Menu from './components/Menu';
+import DrinkListBox from './components/DrinkListBox';
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
     <NavBar />
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/menu" element={<Menu  />} />
     </Routes>
     </div>
   );

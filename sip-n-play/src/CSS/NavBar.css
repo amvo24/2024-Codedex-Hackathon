@@ -1,0 +1,47 @@
+/* src/components/NavBar.css */
+
+.navbar {
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 20px; */
+  }
+
+  .logo img {
+    height: 167px; /* Adjust height as needed */
+    width: 167px;
+    Top: -14px;
+    Left: -16px;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links li {
+    margin-right: 15px;
+  }
+
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+
+  .nav-link {
+    color: #94B974;
+    text-decoration: none;
+    font-size: 36px;
+    /* Font: Inter; */
+    /* Weight: 400; */
+    padding: 10px;
+    margin-right: 50px;
+  }
+
+  /* .nav-link:hover {
+    background-color: #555;
+  } */
+

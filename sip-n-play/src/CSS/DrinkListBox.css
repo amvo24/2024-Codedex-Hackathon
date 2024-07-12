@@ -1,0 +1,32 @@
+/* src/components/DrinkListBox.css */
+
+.drink-list-box {
+    width: 608px;
+    border: 2px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .drink-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .beverages,
+  .prices {
+    flex: 1;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }

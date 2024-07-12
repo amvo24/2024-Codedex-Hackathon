@@ -1,0 +1,21 @@
+/* ./components/Menu.css */
+.menu-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between rows */
+}
+
+.row {
+    display: flex;
+    gap: 20px; /* Space between image-box and DrinkListBox */
+}
+
+.reversed {
+    flex-direction: row-reverse; /* Reverse the order of items in the row */
+}
+
+.image-box {
+    width: 200px; /* Adjust width as needed */
+}
+
+/* Additional styling as per your design requirements */
