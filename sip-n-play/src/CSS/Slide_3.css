@@ -12,7 +12,7 @@ body {
 
 .image-content {
     display: flex;
-    align-items: start; 
+    align-items: center; 
 }
 
 .text-content {
