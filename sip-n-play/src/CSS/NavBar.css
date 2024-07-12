@@ -41,7 +41,8 @@
     margin-right: 50px;
   }
 
-  /* .nav-link:hover {
-    background-color: #555;
-  } */
+  .nav-link:hover {
+    color: #222;
+    transition: ease-in-out .2s;
+  }
 
